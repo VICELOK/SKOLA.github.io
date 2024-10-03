@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
+    
+    <script src="mapdata.js"></script>          
+    <script src="worldmap.js"></script>
+
+    
     <ul>
         <li><a href="https://vicelok.github.io/index.html">Home</a></li>
         <li><a href="https://vicelok.github.io/CV.html">CV</a></li>
@@ -13,10 +19,30 @@
       </ul>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Project!</title>
     <link rel="stylesheet" href="theme.css"> 
+    <style>
+        h2 {
+        text-align: center;
+        font-family: 'Aptos', sans-serif;
+        }
+
+        div{
+            padding: 0px;
+            position: static;
+            left: 15vw;
+        }
+    </style>
 </head>
 <body>
-    
+    <div>
+        <h2>JavaScript Map
+
+        </h2>
+        <div style="max-width: 1000px"> <!-- Keep map above fold --> 
+            <div id="map">
+            </div>
+        </div>
+    </div>
 </body>
 </html>
